@@ -51,7 +51,7 @@ File: cdk.context.json
     "ec2SSHKey": "your-ec2-key",
     "iamUser": "your-iam-user",
     "k8sVersion": "1.23",
-    "albVersion": "2.4.3"
+    "albVersion": "v2.4.3"
   },
 }
 ```
