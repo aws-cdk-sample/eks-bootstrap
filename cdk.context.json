@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "accountId": "00000000000",
+    "region": "us-east-1",
+    "env": "dev",
+    "appName": "myApp",
+    "createVpc": true,
+    "vpcCidr": "",
+    "vpcId": "vpc-xxxxx",
+    "ec2SSHKey": "ec2login",
+    "iamUser": "myiamuser",
+    "k8sVersion": "1.23",
+    "albVersion": "v2.4.1"
+  },
+  "stage": {
+    "accountId": "012345678910",
+    "region": "us-east-2",
+    "env": "stage",
+    "appName": "myApp",
+    "createVpc": true,
+    "vpcCidr": "10.0.0.0/16",
+    "vpcId": "",
+    "ec2SSHKey": "ec2login",
+    "iamUser": "wellxie",
+    "k8sVersion": "1.23",
+    "albVersion": "v2.4.3"
+  }
+}
